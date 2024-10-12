@@ -53,6 +53,19 @@ the program results in a full-screen photo of the Spanish Inquisition (from Mont
 _running_ the program does not result in that. In [my Gist with the title slide](https://gist.github.com/a-n-d-r-e-w-l/c3fd7067debe512d8b02ca70ae712871),
 I explain how it works.
 
+### [covenant](https://github.com/a-n-d-r-e-w-l/covenant)
+
+I've developed an experimental key-value store in Rust with some _very_ promising speed results.
+
+The benchmark I currently have reports (roughly) 2x write speeds and ~4-10x read speed improvements over sqlite, though
+of course sqlite is battle-tested and has full relational query support.
+
+It's built on top of the _excellent_ [fst](https://crates.io/crates/fst) library, which provides bytes-to-`u64`
+mapping in a very creative (and performant!) manner.
+
+It is currently in an MVP state and is still missing a number of major features that would be desired
+in any proper storage backing, which I intend to add later.
+
 ### Brainfuck
 
 I did the [packet-storm](https://www.coretechsec.com/operation-packet-storm) graduate challenge
