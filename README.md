@@ -1,6 +1,8 @@
 # Hi, I'm Andrew!
 
-I'm Andrew Lees, currently a 3rd year Mathematics student at the University of Warwick.
+I'm Andrew Lees, recently graduated from studying Mathematics at the University of Warwick.
+
+I'm a programmer (focused mostly on backend and tooling) looking for entry-level software development jobs, either based in the UK or remote.
 
 ## Skills
 
